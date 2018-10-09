@@ -1,6 +1,9 @@
 create database College;
+go
+
 use College
-go 
+go
+
 create table Students 
 (ID int identity(1,1) Primary Key Clustered,
 FName varchar(10),
